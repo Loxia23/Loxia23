@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @Loxia23
+- 👀 I’m interested in gaming and coding
+- 🌱 I’m currently learning js and lua
