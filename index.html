@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Informations du PC</h1>
+    <div class="container">
+        <div class="info-box">
+            <h2>Informations CPU</h2>
+            <p id="cpu-usage">Usage: Chargement...</p>
+            <p id="cpu-frequency">Fréquence: Chargement...</p>
+            <canvas id="cpuChart"></canvas>
+        </div>
+        
+        <div class="info-box">
+            <h2>Informations GPU</h2>
+            <p id="gpu-usage">Utilisation: Chargement...</p>
+            <p id="gpu-temp">Température: Chargement...</p>
+            <canvas id="gpuChart"></canvas>
+        </div>
+
+        <div class="info-box">
+            <h2>Bande Passante</h2>
+            <p id="bandwidth-sent">Envoyé: Chargement...</p>
+            <p id="bandwidth-received">Reçu: Chargement...</p>
+            <canvas id="bandwidthChart"></canvas>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
